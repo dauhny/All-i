@@ -5,6 +5,7 @@ import { Register } from "./pages/Register";
 import { Home } from "./pages/Home";
 import { ContentIntro } from "./pages/ContentIntro";
 import { MusicCommunity } from "./pages/MusicCommunity";
+import { BookInfo } from "./pages/BookInfo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contentintro" element={<ContentIntro />} />
         <Route path="/musiccommunity" element={<MusicCommunity />} />
+        <Route path="/bookinfo" element={<BookInfo />} />
       </Routes>
     </BrowserRouter>
   );
