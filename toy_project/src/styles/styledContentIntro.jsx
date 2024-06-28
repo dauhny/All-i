@@ -30,6 +30,7 @@ export const InfoText = styled.div`
   margin-left: 8%;
 `;
 
+//go home
 export const PurpleBlurCenter = styled.div`
   width: 185px;
   height: 184px;
