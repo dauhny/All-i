@@ -11,7 +11,7 @@ export const Container = styled.div`
   position: relative;
   overflow: hidden;
 `;
-
+//dsdsds
 export const ForeverismIntro = styled.div`
   width: 390px;
   height: 408px;
