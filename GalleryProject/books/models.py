@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Book(models.Model) : 
-    content = models.TextField(verbose_name="내용", default='') 
+    content = models.TextField(verbose_name="내용") 
     created_at = models.DateTimeField(verbose_name="작성일", auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, null=True, related_name='books_posts')
 
