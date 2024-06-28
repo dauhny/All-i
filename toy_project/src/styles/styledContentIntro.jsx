@@ -41,6 +41,7 @@ export const PurpleBlurCenter = styled.div`
   margin-top: -20%;
 `;
 
+//commit3
 export const ExhibitTitle = styled.div`
   color: #fff;
   font-family: Roboto;
