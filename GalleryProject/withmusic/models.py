@@ -8,8 +8,8 @@ class Music(models.Model):
     content = models.TextField(verbose_name="내용", default='')
     created_at = models.DateTimeField(verbose_name="작성일", auto_now_add=True)
 
-    author = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
- 
+    writer = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+
 
     def __str__(self):
         return self.title
