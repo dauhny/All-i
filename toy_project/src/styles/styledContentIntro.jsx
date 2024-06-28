@@ -52,6 +52,7 @@ export const ExhibitTitle = styled.div`
   text-align: center;
 `;
 
+//commit4
 export const ExhibitDetail = styled.div`
   color: #fff;
   font-family: Roboto;
