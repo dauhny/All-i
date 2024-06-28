@@ -18,6 +18,7 @@ export const ForeverismIntro = styled.div`
   flex-shrink: 0;
 `;
 
+//commit2
 export const InfoText = styled.div`
   color: #fff;
   text-align: left;
@@ -29,6 +30,7 @@ export const InfoText = styled.div`
   margin-left: 8%;
 `;
 
+//go home
 export const PurpleBlurCenter = styled.div`
   width: 185px;
   height: 184px;
@@ -39,6 +41,7 @@ export const PurpleBlurCenter = styled.div`
   margin-top: -20%;
 `;
 
+//commit3
 export const ExhibitTitle = styled.div`
   color: #fff;
   font-family: Roboto;
