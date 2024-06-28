@@ -18,6 +18,7 @@ export const ForeverismIntro = styled.div`
   flex-shrink: 0;
 `;
 
+//commit2
 export const InfoText = styled.div`
   color: #fff;
   text-align: left;
